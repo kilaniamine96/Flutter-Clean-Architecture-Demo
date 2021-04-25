@@ -2,7 +2,18 @@
 
 An example of Clean Architecture implementation in Flutter
 
-## Getting Started
+<div align="center">
+    <a href="https://github.com/flutter/flutter/tree/stable">
+        <img src="https://img.shields.io/badge/made%20with-Flutter-blue?style=for-the-badge">
+    </a>
+</div>
+
+## Medium article
+
+[Please checkout the medium article for explanations, enjoy !](https://kilani-amine-96.medium.com/clean-architecture-on-flutter-with-getit-673baf3994ca)
+
+
+## Getting Started in Flutter
 
 This project is a starting point for a Flutter application.
 
