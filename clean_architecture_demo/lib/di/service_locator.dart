@@ -9,11 +9,11 @@ final GetIt serviceLocator = GetIt.I;
 Future<void> setupLocator() async {
 
   //Repositories
-  serviceLocator.registerLazySingleton<UserRepository>(() => FirebaseUserRepository());
+  serviceLocator.registerFactory<UserRepository>(() => FirebaseUserRepository());
 
   //Interactors
   serviceLocator.registerFactory<CreateUserInteractor>(() => CreateUserInteractor());
 
   //Stores
-  serviceLocator.registerLazySingleton<UserStore>(() => UserStore());
+  serviceLocator.registerSingleton<UserStore>(() => UserStore());
 }
