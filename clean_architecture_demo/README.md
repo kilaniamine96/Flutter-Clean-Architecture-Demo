@@ -1,4 +1,4 @@
-# clean_architecture_demo
+# Flutter Clean Architecture Demo
 
 An example of Clean Architecture implementation in Flutter
 
